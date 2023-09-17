@@ -1,0 +1,45 @@
+body,html{
+    height:100%;
+    margin:0;
+    
+    }
+    body{
+        background-image:url('background.avif');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    body  h1{
+        text-align:center;
+    }
+#wrapper{
+    
+    display: flex;
+    justify-content: flex-start;
+    margin-top:100px;
+    width: 500px;
+    height: 400px;
+    margin-left: 520px;
+    background-color: azure;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-start;
+}
+#from-first,#to-second{
+    width:75px;
+    height:30px;
+    font-size:17px;
+}
+#input-element1,#input-element2
+{
+    width:250px;
+    height:30px;
+    font-size:17px;;
+}
+#button{
+    margin-top: 30px;
+    height:30px;
+    width:100px;
+    
+}

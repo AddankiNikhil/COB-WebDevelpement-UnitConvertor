@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Unit Convertor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Unit Conversion System</h1>
+    <div id="wrapper">
+        <div id="from">
+            <h3>From System</h3>
+            <br>
+            <select id="from-first" onchange="convert()">
+            <option value="meter">meter</option>
+            <option value="centi">centi</option>
+            <option value="km">km</option>
+            <option value="miles">miles</option>
+            <option value="foots">foots</option>
+        </select>
+        <br>
+        <input type=number id="input-element1" placeholder="Enter the value:" oninput="convert()">
+    </div>
+        <div id="to">
+            <h3>To System</h3>
+            <br>
+            <select name="" id="to-second" onchange="convert()">
+            <option value="meter">meter</option>
+            <option value="centi">centi</option>
+            <option value="km">km</option>
+            <option value="miles">miles</option>
+            <option value="foots">foots</option>
+        </select>
+        <br>
+        <input type="number" id="input-element2">  
+        <br>
+       
+    </div>
+    <br>
+    <button onclick="change_systems()" id="button">Swap</button>    
+</div>
+    <footer><footer>
+    <script src="script.js"></script>
+</body>
+</html>
